@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>webplayer maxus hub</title>
+    <meta
+      name="description"
+      property="og:description"
+      content="A simple HTML5 media player with custom controls and WebVTT captions."
+    />
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/demo.css" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-132699580-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-132699580-1");
+    </script>
+  </head>
+  <body>
+    <div class="grid">
+      <header>
+        <h1>M<span>A</span>X<span>U</span>S</h1>
+      </header>
+      <main>
+        <div id="container">
+          <video
+            controls
+            crossorigin
+            playsinline
+            data-poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg"
+            id="player"
+          >
+            <source
+              src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4"
+              type="video/mp4"
+              size="576"
+            />
+            <source
+              src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-720p.mp4"
+              type="video/mp4"
+              size="720"
+            />
+            <source
+              src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1080p.mp4"
+              type="video/mp4"
+              size="1080"
+            />
+
+            <track
+              kind="captions"
+              label="English"
+              srclang="en"
+              src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.en.vtt"
+              default
+            />
+            <track
+              kind="captions"
+              label="Français"
+              srclang="fr"
+              src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.fr.vtt"
+            />
+
+            <a
+              href="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4"
+              download
+              >Download</a
+            >
+          </video>
+        </div>
+        <ul>
+          <li class="plyr__cite plyr__cite--video" hidden>
+            <small>
+              <!-- Video citation skipped for brevity -->
+            </small>
+          </li>
+          <li class="plyr__cite plyr__cite--audio" hidden>
+            <small>
+              <!-- Audio citation skipped for brevity -->
+            </small>
+          </li>
+          <li class="plyr__cite plyr__cite--youtube" hidden>
+            <small>
+              <!-- YouTube citation skipped for brevity -->
+            </small>
+          </li>
+        </ul>
+      </main>
+    </div>
+
+    <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+    <script>
+      const player = new Plyr("#player");
+    </script>
+  </body>
+</html>
