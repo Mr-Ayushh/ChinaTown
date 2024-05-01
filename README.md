@@ -49,14 +49,4 @@ To install and configure ChinaTown Restaurant & Catering Service App, follow the
    flutter run
    ```
 
-## Contributors
-
-- Ayush Rajendra Tiwari
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 Thank you for exploring ChinaTown Restaurant & Catering Service App! For any inquiries or feedback, please contact Ayush Rajendra Tiwari. Let's revolutionize the food industry together! 🍜📱💼
