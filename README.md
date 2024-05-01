@@ -13,7 +13,7 @@ ChinaTown Restaurant & Catering Service App is a comprehensive solution designed
 
 - **Mobile Application Development:**
   - Flutter-Dart
-  - 
+    
 - **Backend and Database:**
   - Firebase
 
