@@ -55,7 +55,7 @@ To install and configure ChinaTown Restaurant & Catering Service App, follow the
 
 ## License
 
-This project is licensed under the [Mr-Ayushh](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
