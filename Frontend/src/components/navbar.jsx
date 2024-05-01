@@ -6,7 +6,7 @@ import { Menu, X } from 'lucide-react'
 const menuItems = [
   {
     name: 'Home',
-    href: '#',
+    href: '/',
   },
   {
     name: 'About',
@@ -14,8 +14,12 @@ const menuItems = [
   },
   {
     name: 'Contact',
-    href: '#',
+    href: '/contact',
   },
+  {
+    name:"FAQ",
+    href:"/faq"
+  }
 ]
 
 function Navbar() {
@@ -130,6 +134,7 @@ function Navbar() {
         )}
       </div>
     </div>
+
   )
 }
 
