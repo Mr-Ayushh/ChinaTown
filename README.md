@@ -2,7 +2,7 @@
 
 ## Description
 
-ChinaTown Restaurant & Catering Service App is a comprehensive solution designed to modernize the dining and food catering experience. It serves as an online delivery platform with features including menu exploration, order placement, and party order management. Developed as part of Ayush Rajendra Tiwari's TY BCA Project, this application aims to enhance customer satisfaction and service efficiency for ChinaTown Restaurant & Catering Services.
+ChinaTown Restaurant & Catering Service App is a comprehensive solution designed to modernize the dining and food catering experience. It serves as an online delivery platform with features including menu exploration, order placement, and party order management. Developed as part of my TY's Project, this application aims to enhance customer satisfaction and service efficiency for ChinaTown Restaurant & Catering Services.
 
 ## Technologies Used
 
@@ -20,7 +20,7 @@ ChinaTown Restaurant & Catering Service App is a comprehensive solution designed
 
 ## Installation and Configuration
 
-To install and configure ChinaTown Restaurant & Catering Service App, follow these steps:
+To install and configure ChinaTown Restaurant & Catering Service App,follow these steps:-
 
 1. **Clone the Repository:**
    ```bash
