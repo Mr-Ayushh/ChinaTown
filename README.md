@@ -48,4 +48,4 @@ To install and configure ChinaTown Restaurant & Catering Service App,follow thes
    flutter run
    ```
 
-Thank you for exploring ChinaTown Restaurant & Catering Service App! For any inquiries or feedback, please contact Ayush Rajendra Tiwari. Let's revolutionize the food industry together! 🍜📱💼
+Thank you for exploring ChinaTown Restaurant & Catering Service App! For any inquiries or feedback, please contact ayu.tiwari004@gmail.com 🍜📱💼
