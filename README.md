@@ -24,12 +24,12 @@ To install and configure ChinaTown Restaurant & Catering Service App, follow the
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/chinatown-restaurant-app.git
+   git clone https://github.com/Mr-Ayushh/chinatown-restaurant-app.git
    ```
 
 2. **Navigate to the Project Directory:**
    ```bash
-   cd chinatown-restaurant-app
+   cd chinatown
    ```
 
 3. **Install Dependencies:**
