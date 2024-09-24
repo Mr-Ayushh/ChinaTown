@@ -1,0 +1,60 @@
+**Synopsis: ChinaTown Restaurant & Catering Service App**
+
+*Submitted by: Ayush Rajendra Tiwari, TY BCA*
+
+*Internal Project Guidance: Darshan Patil*
+
+*Veena College*
+
+**Introduction:**
+
+The "China Town Restaurant and Catering Services" mobile app represents a strategic advancement in enhancing the dining and food catering experience. Serving as an online delivery platform, the app introduces features such as menu exploration, order placement, and party order management. Simultaneously, it functions as a business tool for owners, overcoming traditional limitations by offering a refined interface for interactions, navigation, and order management.
+
+**System Features & Scope:**
+
+The system incorporates essential features such as:
+
+2. **Menu Card Display:** Showcase the menu
+3. **User Authentication:** Secure access for users.
+4. **Payment System:** Support for UPI and Cash on Delivery (COD).
+5. **Customer Rating & Reviews:** Allow users to provide feedback.
+6. **Push Notifications:** Keep users informed of orders and promotions.
+7. **Schedule Orders:** Enable users to schedule orders for a later time.
+
+**Need of the Application:**
+
+The application addresses the modernization needs of "China Town Restaurant & Catering Services" by providing a user-friendly mobile app, aiming to enhance customer satisfaction and service efficiency.
+
+**Deployment:**
+
+The chosen deployment strategy involves a web-based release instead of the Google Play Store. An engaging landing webpage showcases the app's features, and users can download it directly from the website. Additionally, a QR code on the website allows easy access to the Food Menu card and exclusive offers, eliminating the need for the Play Store deployment fee.
+
+**Cost-Effective Approach:**
+
+By opting for a web-based release, the application provides a user-friendly experience without incurring the $25 deployment fee on the Play Store.
+
+**Initial Website Hosting:**
+
+The initial launch utilizes platforms like GitHub Pages or Google Sites for website hosting, providing a temporary solution with an openness to explore other hosting options in the future.
+
+**Development Tools & Technologies:**
+
+**Development Model:**
+- Agile Model
+
+**Website Frontend:**
+- HTML
+- CSS
+- JavaScript
+
+**DevTools Platform:**
+- Android Studio
+
+**Frontend:**
+- Kotlin xml
+
+**Backend:**
+- Firebase for Auth & DB
+
+Conclusion
+The mobile food ordering business is a fast-growing trend that any restaurant/cafe cannot ignore. As the technologies behind this continue to evolve (internet and mobile), the strategic value of food delivery apps like UberEats will undoubtedly grow even higher. In doing so, every element of the development of such an application must be considered and the needs of all parties involved must be properly considered.

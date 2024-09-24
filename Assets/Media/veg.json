@@ -1,0 +1,419 @@
+{
+  "veg_menu": {
+      "main_course_noodles": [
+                {
+              "id": 1,
+              "dish_name": "Veg. Pan Fried Noodles",
+              "price_full": 180
+          },
+          {
+              "id": 2,
+              "dish_name": "Veg Smoked Noodles with Gravy",
+              "price_full": 180
+          },
+          {
+              "id": 3,
+              "dish_name": "Veg. Hakka Noodles",
+              "price_half": 60,
+              "price_full": 110
+          },
+          {
+              "id": 4,
+              "dish_name": "Veg. Sehzwan Noodles",
+              "price_half": 80,
+              "price_full": 130
+          },
+          {
+              "id": 5,
+              "dish_name": "Veg. Hong Kong Noodles",
+              "price_half": 80,
+              "price_full": 150
+          },
+          {
+              "id": 6,
+              "dish_name": "Veg. Manchurian Noodles",
+              "price_half": 100,
+              "price_full": 160
+          },
+          {
+              "id": 7,
+              "dish_name": "Veg. Sehzwan Triple Noodles",
+              "price_half": 110,
+              "price_full": 160
+          },
+          {
+              "id": 8,
+              "dish_name": "Veg. Mushroom Noodles",
+              "price_half": 100,
+              "price_full": 170
+          },
+          {
+              "id": 9,
+              "dish_name": "Veg. Paneer Noodles",
+              "price_half": 100,
+              "price_full": 160
+          },
+          {
+              "id": 10,
+              "dish_name": "Veg. Singapori Noodles",
+              "price_half": 90,
+              "price_full": 160
+          },
+          {
+              "id": 11,
+              "dish_name": "Veg. China Town Special Noodles",
+              "price_half": 110,
+              "price_full": 180
+          }
+      ],
+      "soup": [
+          {
+              "id": 12,
+              "dish_name": "Veg. Munchow Soup",
+              "price_half": 50,
+              "price_full": 90
+          },
+          {
+              "id": 13,
+              "dish_name": "Veg. Sweet Corn Plain Soup",
+              "price_half": 60,
+              "price_full": 110
+          },
+          {
+              "id": 14,
+              "dish_name": "Veg. Tum Yum Soup",
+              "price_half": 70,
+              "price_full": 100
+          },
+          {
+              "id": 15,
+              "dish_name": "Veg. Tomato Soup",
+              "price_full": 100
+          },
+          {
+              "id": 16,
+              "dish_name": "Veg. Hot & Sour Soup",
+              "price_half": 60,
+              "price_full": 100
+          },
+          {
+              "id": 17,
+              "dish_name": "Veg. Mushroom Soup",
+              "price_half": 70,
+              "price_full": 110
+          },
+          {
+              "id": 18,
+              "dish_name": "Veg. Corindor Lemon Soup",
+              "price_full": 120
+          },
+          {
+              "id": 19,
+              "dish_name": "Veg. China Town Special Soup",
+              "price_full": 120
+          }
+      ],
+      "starters": [
+          {
+              "id": 20,
+              "dish_name": "Veg. LOLLIPOP",
+              "price_full": 120
+          },
+          {
+              "id": 21,
+              "dish_name": "Veg. Potato Chilly",
+              "price_full": 130
+          },
+          {
+              "id": 22,
+              "dish_name": "Paneer Chilly Spicy (Punjabi Style)",
+              "price_full": 150
+          },
+          {
+              "id": 23,
+              "dish_name": "Veg. Spring Roll",
+              "price_full": 140
+          },
+          {
+              "id": 24,
+              "dish_name": "Veg. Mushroom Spring Roll",
+              "price_full": 150
+          },
+          {
+              "id": 25,
+              "dish_name": "Veg. Mushrom Manchurian (Dry)",
+              "price_half": 80,
+              "price_full": 150
+          },
+          {
+              "id": 26,
+              "dish_name": "Veg. Manchurian (Dry)",
+              "price_half": 70,
+              "price_full": 120
+          },
+          {
+              "id": 27,
+              "dish_name": "Veg. Crispy",
+              "price_full": 150
+          },
+          {
+              "id": 28,
+              "dish_name": "Paneer Crispy",
+              "price_half": 100,
+              "price_full": 170
+          },
+          {
+              "id": 29,
+              "dish_name": "Paneer 65 Dry",
+              "price_full": 150
+          },
+          {
+              "id": 30,
+              "dish_name": "Paneer Chilli",
+              "price_half": 100,
+              "price_full": 150
+          },
+          {
+              "id": 31,
+              "dish_name": "Chinese Bhel",
+              "price_half": 100,
+              "price_full": 150
+          },
+          {
+              "id": 32,
+              "dish_name": "Veg. Cutlet",
+              "price_full": 120
+          },
+          {
+              "id": 33,
+              "dish_name": "Flower Chilli",
+              "price_full": 140
+          },
+          {
+              "id": 34,
+              "dish_name": "Soyabean Sechzwan",
+              "price_full": 120
+          },
+          {
+              "id": 35,
+              "dish_name": "Kimchi Paneer Dry",
+              "price_full": 190
+          },
+          {
+              "id": 36,
+              "dish_name": "Thai Paneer",
+              "price_full": 200
+          },
+          {
+              "id": 37,
+              "dish_name": "Crispy Honey Chilli Patato",
+              "price_full": 160
+          },
+          {
+              "id": 38,
+              "dish_name": "Veg. Panner Finger",
+              "price_full": 150
+          }
+      ],
+      "gravy_stuff": [
+          {
+              "id": 39,
+              "dish_name": "Paneer Chilli",
+              "price_full": 160
+          },
+          {
+              "id": 40,
+              "dish_name": "Paneer 65",
+              "price_full": 160
+          },
+          {
+              "id": 41,
+              "dish_name": "Veg. Manchurian",
+              "price_half": 70,
+              "price_full": 120
+          },
+          {
+              "id": 42,
+              "dish_name": "veg. Chilli",
+              "price_half": 70,
+              "price_full": 120
+          },
+          {
+              "id": 43,
+              "dish_name": "Veg. Hong Kong",
+              "price_full": 150
+          },
+          {
+              "id": 44,
+              "dish_name": "Veg. Mushroom Chilli",
+              "price_half": 80,
+              "price_full": 150
+          }
+      ],
+      "main_course_rice": [
+          {
+              "id": 45,
+              "dish_name": "Veg. Fried Rice",
+              "price_half": 60,
+              "price_full": 110
+          },
+          {
+              "id": 46,
+              "dish_name": "Veg. Triple Fried Rice",
+              "price_half": 100,
+              "price_full": 160
+          },
+          {
+              "id": 47,
+              "dish_name": "Veg. Schezwan Fried Rice",
+              "price_half": 80,
+              "price_full": 130
+          },
+          {
+              "id": 48,
+              "dish_name": "Veg. Singapore Fried Rice",
+              "price_half": 100,
+              "price_full": 150
+          },
+          {
+              "id": 49,
+              "dish_name": "Veg. Combination Fried Rice",
+              "price_half": 80,
+              "price_full": 140
+          },
+          {
+              "id": 50,
+              "dish_name": "Veg. Hong Kong Fried Rice",
+              "price_half": 80,
+              "price_full": 150
+          },
+          {
+              "id": 51,
+              "dish_name": "Veg. Paneer Chopper Rice",
+              "price_half": 110,
+              "price_full": 80
+          },
+          {
+              "id": 52,
+              "dish_name": "Veg. American Choupsey",
+              "price_full": 150
+          },
+          {
+              "id": 53,
+              "dish_name": "Veg. Chilli Rice",
+              "price_half": 110,
+              "price_full": 180
+          },
+          {
+              "id": 54,
+              "dish_name": "Veg. Mushroom Paneer Rice",
+              "price_full": 180
+          },
+          {
+              "id": 55,
+              "dish_name": "Veg. 65 Rice",
+              "price_half": 110,
+              "price_full": 70
+          },
+          {
+              "id": 56,
+              "dish_name": "Veg. Steam Rice (Counter Only)",
+              "price_half": 110,
+              "price_full": 170
+          },
+          {
+              "id": 57,
+              "dish_name": "Veg. Sweet Corn Rice",
+              "price_full": 120
+          }
+      ],
+      "indian_gravey_items": [
+          {
+              "id": 58,
+              "dish_name": "Paneer Tikka Masala",
+              "price_full": 150
+          },
+          {
+              "id": 59,
+              "dish_name": "Paneer Mutter",
+              "price_full": 150
+          },
+          {
+              "id": 60,
+              "dish_name": "Veg. Handi",
+              "price_full": 150
+          }
+      ],
+      "roti": [
+          {
+              "id": 61,
+              "dish_name": "Chapatti",
+              "price_per_piece": 7
+          },
+          {
+              "id": 62,
+              "dish_name": "Tandoor Roti",
+              "price_per_piece": 12
+          }
+      ],
+      "indian_rice_biryani": [
+          {
+              "id": 63,
+              "dish_name": "Veg. Biryani",
+              "price_full": 130
+          },
+          {
+              "id": 64,
+              "dish_name": "Veg. Panner Biryani",
+              "price_full": 150
+          },
+          {
+              "id": 65,
+              "dish_name": "Veg. Pulao",
+              "price_full": 120
+          },
+          {
+              "id": 66,
+              "dish_name": "Veg. Kashmiri Biryani",
+              "price_full": 170
+          },
+          {
+              "id": 67,
+              "dish_name": "Veg. Panner Tikka Biryani",
+              "price_full": 160
+          }
+      ],
+      "veg_combo_lunch_pack": [
+          {
+              "id": 68,
+              "dish_name": "Veg. Mini Rice Combo (Starter, Soup & Rice)",
+              "price_full": 180
+          },
+          {
+              "id": 69,
+              "dish_name": "Veg. Mini Noodles Combo (Starter, Soup & Noodles)",
+              "price_full": 180
+          },
+          {
+              "id": 70,
+              "dish_name": "Veg. Paneer Kabsa Rice (4 Person)",
+              "price_full": 750
+          },
+          {
+              "id": 71,
+              "dish_name": "Chicken Mini Rice Combo (Starter, Soup & Rice)",
+              "price_full": 200
+          },
+          {
+              "id": 72,
+              "dish_name": "Chicken Mini Noodles Combo (Starter, Soup & Noodles)",
+              "price_full": 200
+          },
+          {
+              "id": 73,
+              "dish_name": "Chicken Paneer Kabsa Rice (4 Person)",
+              "price_full": 750
+          }
+      ]
+    }
+}

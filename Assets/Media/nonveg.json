@@ -1,0 +1,612 @@
+{
+  "non_veg_menu": {
+    "main_course_noodles": [
+      {
+        "id": 1,
+        "dish_name": "Chicken Hakka Noodles",
+        "price_half": 70,
+        "price_full": 120
+      },
+      {
+        "id": 2,
+        "dish_name": "Chicken Singapore Noodles",
+        "price_half": 100,
+        "price_full": 180
+      },
+      {
+        "id": 3,
+        "dish_name": "Chicken Sehzwan Noodles",
+        "price_half": 90,
+        "price_full": 140
+      },
+      {
+        "id": 4,
+        "dish_name": "Chicken Manchurian Noodles",
+        "price_half": 100,
+        "price_full": 160
+      },
+      {
+        "id": 5,
+        "dish_name": "Chicken Triple Noodles",
+        "price_half": 110,
+        "price_full": 180
+      },
+      {
+        "id": 6,
+        "dish_name": "Chicken Hong Kong Noodles",
+        "price_half": 100,
+        "price_full": 170
+      },
+      {
+        "id": 7,
+        "dish_name": "Chicken Thai Noodles",
+        "price_full": 190
+      },
+      {
+        "id": 8,
+        "dish_name": "Chicken Continantial Noodles",
+        "price_full": 250
+      },
+      {
+        "id": 9,
+        "dish_name": "Chicken Street Fried Noodles",
+        "price_full": 200
+      },
+      {
+        "id": 10,
+        "dish_name": "Chicken Smoked Noodles",
+        "price_full": 200
+      }
+    ],
+    "prawns_rice_noodles": [
+      {
+        "id": 1,
+        "dish_name": "Prawns Fried Rice",
+        "price_half": 130,
+        "price_full": 200
+      },
+      {
+        "id": 2,
+        "dish_name": "Prawns Sehzwan Fried",
+        "price_half": 130,
+        "price_full": 200
+      },
+      {
+        "id": 3,
+        "dish_name": "Prawns Combination Fried",
+        "price_half": 130,
+        "price_full": 200
+      },
+      {
+        "id": 4,
+        "dish_name": "Prawns Singapore Rice",
+        "price_half": 130,
+        "price_full": 200
+      }
+    ],
+    "chinese_seafood": [
+      {
+        "id": 1,
+        "dish_name": "Prawns Chilly",
+        "price_full": 230
+      },
+      {
+        "id": 2,
+        "dish_name": "Prawns Garlic",
+        "price_full": 230
+      },
+      {
+        "id": 3,
+        "dish_name": "Prawns Ginger",
+        "price_full": 230
+      },
+      {
+        "id": 4,
+        "dish_name": "Prawns Sweet & Sour",
+        "price_full": 230
+      },
+      {
+        "id": 5,
+        "dish_name": "Prawns Schezwan Style",
+        "price_full": 230
+      },
+      {
+        "id": 6,
+        "dish_name": "Prawns Hongkong",
+        "price_full": 230
+      },
+      {
+        "id": 7,
+        "dish_name": "Prawns Singapore",
+        "price_full": 230
+      },
+      {
+        "id": 8,
+        "dish_name": "Prawns 65",
+        "price_full": 230
+      }
+    ],
+    "tandoori": [
+      {
+        "id": 1,
+        "dish_name": "Chicken Tandoori",
+        "price_half": 170,
+        "price_full": 320
+      },
+      {
+        "id": 2,
+        "dish_name": "Chicken Lollipop Tandoori (8 Pieces)",
+        "price_full": 200
+      },
+      {
+        "id": 3,
+        "dish_name": "Chicken Lollipop Tandoori (4 Pieces)",
+        "price_full": 120
+      },
+      {
+        "id": 4,
+        "dish_name": "Chicken Sehzwan Tandoori",
+        "price_half": 200,
+        "price_full": 380
+      },
+      {
+        "id": 5,
+        "dish_name": "Chicken Leg Piece",
+        "price_full": 120
+      },
+      {
+        "id": 6,
+        "dish_name": "Chicken Tikka (6 Piece)",
+        "price_full": 150
+      },
+      {
+        "id": 7,
+        "dish_name": "Chicken Tikka Masala",
+        "price_full": 200
+      },
+      {
+        "id": 8,
+        "dish_name": "Chicken Afghani Tandoori",
+        "price_full": 350
+      },
+      {
+        "id": 9,
+        "dish_name": "Chicken Phadi",
+        "price_full": 180
+      }
+    ],
+    "indian_non_veg": [
+      {
+        "id": 1,
+        "dish_name": "Egg Masala",
+        "price_full": 100
+      },
+      {
+        "id": 2,
+        "dish_name": "Chicken Masala",
+        "price_full": 150
+      },
+      {
+        "id": 3,
+        "dish_name": "Chicken Handi",
+        "price_full": 180
+      },
+      {
+        "id": 4,
+        "dish_name": "Chicken Sukha",
+        "price_full": 180
+      },
+      {
+        "id": 5,
+        "dish_name": "Butter Chicken",
+        "price_full": 180
+      },
+      {
+        "id": 6,
+        "dish_name": "Chicken Liver Masala (dry)",
+        "price_full": 150
+      },
+      {
+        "id": 7,
+        "dish_name": "Murg Masala",
+        "price_full": 400
+      },
+      {
+        "id": 8,
+        "dish_name": "Chicken Angara (Boneless)",
+        "price_full": 210
+      },
+      {
+        "id": 9,
+        "dish_name": "Chicken Hyderabadi (Boneless)",
+        "price_full": 200
+      },
+      {
+        "id": 10,
+        "dish_name": "Chicken Tandoori Masala",
+        "price_full": 380
+      },
+      {
+        "id": 11,
+        "dish_name": "Chicken Kosa (Calcutta Style)",
+        "price_full": 200
+      }
+    ],
+    "indian_rice_biryani": [
+      {
+        "id": 1,
+        "dish_name": "Chicken Leg Biryani",
+        "price_full": 180
+      },
+      {
+        "id": 2,
+        "dish_name": "Chicken Biryani",
+        "price_half": 70,
+        "price_full": 130
+      },
+      {
+        "id": 3,
+        "dish_name": "Chicken Liver Biryani",
+        "price_full": 150
+      },
+      {
+        "id": 4,
+        "dish_name": "Chicken Hyderabadi Dum Biryani",
+        "price_full": 150
+      },
+      {
+        "id": 5,
+        "dish_name": "Egg Biryani",
+        "price_full": 120
+      },
+      {
+        "id": 6,
+        "dish_name": "Prawns Biryani",
+        "price_full": 220
+      },
+      {
+        "id": 7,
+        "dish_name": "Chicken Tikka Biryani (Boneless) 3 Pcs",
+        "price_full": 180
+      },
+      {
+        "id": 8,
+        "dish_name": "Chicken Hyderabadi Biryani 4 Pcs",
+        "price_full": 220
+      },
+      {
+        "id": 9,
+        "dish_name": "Chicken Kashmiri Biryani",
+        "price_full": 180
+      }
+    ],
+    "starters": [
+      {
+        "id": 1,
+        "dish_name": "Devils Chicken Sesame",
+        "price_full": 250
+      },
+      {
+        "id": 2,
+        "dish_name": "Thai Chicken Chilli",
+        "price_full": 220
+      },
+      {
+        "id": 3,
+        "dish_name": "Chicken Lemon Garlic",
+        "price_full": 200
+      },
+      {
+        "id": 4,
+        "dish_name": "Chicken Majestic Hyderabadi Style",
+        "price_full": 190
+      },
+      {
+        "id": 5,
+        "dish_name": "Chicken Chinese Bhel",
+        "price_half": 90,
+        "price_full": 150
+      },
+      {
+        "id": 6,
+        "dish_name": "Chicken Chilli BL (Dry/Gravy)",
+        "price_half": 80,
+        "price_full": 150
+      },
+      {
+        "id": 7,
+        "dish_name": "Chicken Chatpata",
+        "price_full": 210
+      },
+      {
+        "id": 8,
+        "dish_name": "Chicken Butter Garlic",
+        "price_full": 180
+      },
+      {
+        "id": 9,
+        "dish_name": "Chicken Fry BL",
+        "price_full": 180
+      },
+      {
+        "id": 10,
+        "dish_name": "Chicken Dragoon BL Dry",
+        "price_full": 180
+      },
+      {
+        "id": 11,
+        "dish_name": "Chicken Lollipop (6 Pieces)",
+        "price_full": 140
+      },
+      {
+        "id": 12,
+        "dish_name": "Chicken Lollipop Masala",
+        "price_half": 100,
+        "price_full": 180
+      },
+      {
+        "id": 13,
+        "dish_name": "Chicken Crispy",
+        "price_full": 180
+      },
+      {
+        "id": 14,
+        "dish_name": "Chicken 65",
+        "price_full": 170
+      },
+      {
+        "id": 15,
+        "dish_name": "Chicken 99",
+        "price_full": 190
+      },
+      {
+        "id": 16,
+        "dish_name": "Chicken Lemon Coriander",
+        "price_full": 180
+      },
+      {
+        "id": 17,
+        "dish_name": "Chicken Finger Dry",
+        "price_full": 190
+      },
+      {
+        "id": 18,
+        "dish_name": "Chicken Hong Kong Dry",
+        "price_full": 190
+      },
+      {
+        "id": 19,
+        "dish_name": "Chicken Schezwan Tandoori",
+        "price_full": 380
+      },
+      {
+        "id": 20,
+        "dish_name": "Chicken Manchurian",
+        "price_half": 90,
+        "price_full": 140
+      },
+      {
+        "id": 21,
+        "dish_name": "Chicken Mongolian",
+        "price_full": 190
+      },
+      {
+        "id": 22,
+        "dish_name": "Chicken Schezwan",
+        "price_half": 90,
+        "price_full": 160
+      },
+      {
+        "id": 23,
+        "dish_name": "Chicken Tandoori Manchurian",
+        "price_full": 190
+      },
+      {
+        "id": 24,
+        "dish_name": "Sliced Chicken Chilli Oyster Sauce",
+        "price_full": 200
+      },
+      {
+        "id": 25,
+        "dish_name": "Chicken Kung Pao",
+        "price_full": 220
+      },
+      {
+        "id": 26,
+        "dish_name": "Chicken Garlic with Mushroom",
+        "price_full": 220
+      }
+    ],
+    "main_course_rice": [
+      {
+        "id": 1,
+        "dish_name": "Chicken Fried Rice",
+        "price_half": 70,
+        "price_full": 120
+      },
+      {
+        "id": 2,
+        "dish_name": "Chicken Liver Fried Rice",
+        "price_half": 90,
+        "price_full": 150
+      },
+      {
+        "id": 3,
+        "dish_name": "Chicken Mushroom Fried Rice",
+        "price_half": 100,
+        "price_full": 160
+      },
+      {
+        "id": 4,
+        "dish_name": "Chicken Burnt Garlic Rice",
+        "price_half": 100,
+        "price_full": 160
+      },
+      {
+        "id": 5,
+        "dish_name": "Chicken Packing Rice (On table Only)",
+        "price_half": 130,
+        "price_full": 210
+      },
+      {
+        "id": 6,
+        "dish_name": "Chicken 65 Fried Rice",
+        "price_half": 100,
+        "price_full": 160
+      },
+      {
+        "id": 7,
+        "dish_name": "Chicken Sehzwan Fried Rice",
+        "price_half": 90,
+        "price_full": 140
+      },
+      {
+        "id": 8,
+        "dish_name": "Chicken Chilli Rice",
+        "price_half": 120,
+        "price_full": 190
+      },
+      {
+        "id": 9,
+        "dish_name": "Chicken Triple Sehzwan Fried Rice",
+        "price_half": 110,
+        "price_full": 180
+      },
+      {
+        "id": 10,
+        "dish_name": "Chicken Chopper Fried Rice",
+        "price_half": 120,
+        "price_full": 200
+      },
+      {
+        "id": 11,
+        "dish_name": "Chicken Combination Fried Rice",
+        "price_half": 90,
+        "price_full": 150
+      },
+      {
+        "id": 12,
+        "dish_name": "Chicken Cocktail",
+        "price_half": 100,
+        "price_full": 160
+      },
+      {
+        "id": 13,
+        "dish_name": "Chicken American Chop Suey",
+        "price_full": 160
+      },
+      {
+        "id": 14,
+        "dish_name": "Chicken Singapore Fried Rice",
+        "price_half": 100,
+        "price_full": 180
+      },
+      {
+        "id": 15,
+        "dish_name": "Chicken Boxer Rice",
+        "price_full": 190
+      },
+      {
+        "id": 16,
+        "dish_name": "Chicken Pot Rice",
+        "price_full": 200
+      },
+      {
+        "id": 17,
+        "dish_name": "Chicken Ginger Capsicum Rice",
+        "price_full": 180
+      },
+      {
+        "id": 18,
+        "dish_name": "Chicken Korean Fried Rice",
+        "price_full": 190
+      },
+      {
+        "id": 19,
+        "dish_name": "Chicken Hong Kong Fried Rice",
+        "price_full": 180
+      },
+      {
+        "id": 20,
+        "dish_name": "Chicken Tomato Mushroom Fried Rice",
+        "price_full": 180
+      },
+      {
+        "id": 21,
+        "dish_name": "Chicken Malishyan Fried Rice",
+        "price_full": 180
+      },
+      {
+        "id": 22,
+        "dish_name": "Chicken Thai Pot Rice",
+        "price_full": 220
+      },
+      {
+        "id": 23,
+        "dish_name": "Chicken Kabsa Rice (1 Person)",
+        "price_full": 250
+      },
+      {
+        "id": 24,
+        "dish_name": "Egg Fried Rice",
+        "price_half": 100,
+        "price_full": 120
+      },
+      {
+        "id": 25,
+        "dish_name": "Chicken 1000 Rice",
+        "price_full": 280
+      },
+      {
+        "id": 26,
+        "dish_name": "Chicken Lemon Green Rice with Crispy Gravy",
+        "price_full": 280
+      }
+    ],
+    "soup": [
+      {
+        "id": 1,
+        "dish_name": "Chicken Manchow Soup",
+        "price_half": 60,
+        "price_full": 100
+      },
+      {
+        "id": 2,
+        "dish_name": "Chicken Sweet Corn Soup",
+        "price_half": 70,
+        "price_full": 120
+      },
+      {
+        "id": 3,
+        "dish_name": "Chicken Lung Fung Soup",
+        "price_half": 70,
+        "price_full": 120
+      },
+      {
+        "id": 4,
+        "dish_name": "Chicken Hot & Sour Soup",
+        "price_full": 120
+      },
+      {
+        "id": 5,
+        "dish_name": "Chicken Tom Yum Soup",
+        "price_full": 120
+      },
+      {
+        "id": 6,
+        "dish_name": "Chicken Drop Lemon Soup",
+        "price_full": 110
+      },
+      {
+        "id": 7,
+        "dish_name": "Chicken Hot & Pot Soup",
+        "price_full": 150
+      },
+      {
+        "id": 8,
+        "dish_name": "China Town Special Chicken Soup",
+        "price_full": 130
+      }
+    ]
+  }
+}

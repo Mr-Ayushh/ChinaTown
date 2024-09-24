@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ChinaTown</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="globals.css" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      background-image: url("image.png");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: contain;
+      background-position: center;
+      width: 100%;
+      min-height: 100vh;
+      overflow-y: auto;
+      margin: 0;
+      padding: 0;
+      position: relative; /* Ensure positioning context for absolute positioning */
+    }
+
+    /* Optional: To ensure body content does not overlap the image, you can add padding or margins to the body content */
+    body::after {
+      content: "";
+      display: block;
+      height: 100vh;
+    }
+
+    .download-button {
+      position: absolute;
+      top: 2.5%; /* Adjust as needed */
+      right: 20%; /* Adjust as needed */
+      background-color: #007bff;
+      color: #ffffff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <button class="download-button" onclick="window.location.href = 'https://drive.google.com/file/d/1JRYPZU4vYi7MMJURDfqzMIGpqqWCvoBm/view'">Download Our App</button>
+</body>
+</html>

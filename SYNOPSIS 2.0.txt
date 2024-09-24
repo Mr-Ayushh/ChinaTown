@@ -1,0 +1,58 @@
+**Synopsis: ChinaTown Restaurant & Catering Service App**
+
+*Submitted by: Ayush Rajendra Tiwari, TY BCA*
+
+*Internal Project Guidance: Divya Mane*
+
+*Veena College*
+
+**Introduction:**
+
+The "China Town Restaurant and Catering Services" mobile app represents a strategic advancement in enhancing the dining and food catering experience. Serving as an online delivery platform, the app introduces features such as menu exploration, order placement, and party order management. Simultaneously, it functions as a business tool for owners, overcoming traditional limitations by offering a refined interface for interactions, navigation, and order management.
+
+**System Features & Scope:**
+
+The system incorporates essential features such as:
+
+2. **Menu Card Display:** Showcase the food menu .
+3. **google login & Mail-pass Authentication:** Secure access for users & admin
+4. **Payment System:** For now we are providing only COD in futher updates we will add UPI online payment support.
+Live reflect product updation
+
+**Need of the Application:**
+
+The application addresses the modernization needs of "China Town Restaurant & Catering Services" by providing a user-friendly mobile app, aiming to enhance customer satisfaction and service efficiency.
+
+**Deployment:**
+
+The chosen deployment strategy involves a web-based release instead of the Google Play Store. An engaging landing webpage showcases the app's features, and users can download it directly from the website.eliminating the need for the Play Store deployment fee.
+
+**Cost-Effective Approach:**
+By opting for a web-based release, the application provides a user-friendly experience without incurring the $25 deployment fee on the Play Store.
+
+**Initial Website Hosting:**
+The initial launch utilizes platforms like GitHub Pages or Google Sites for website hosting, providing a temporary solution with an openness to explore other hosting options in the future.
+
+**Development Tools & Technologies:**
+
+deployment
+
+**Development Model:**
+- Agile Model
+
+**Website Development:**
+- HTML/CSS
+
+**DevTools Platform:**
+- Android Studio 
+- Figma (for UI/UX)
+
+**Frontend:**
+
+Flutter-Dart
+
+**Backend:**
+- Firebase for Auth & DB
+
+Conclusion
+The mobile food ordering business is a fast-growing trend that anyone cannot ignore. As the technologies behind this continue to evolve (internet and mobile), the strategic value of food delivery.
