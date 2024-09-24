@@ -1,1 +1,0 @@
- D:\\ChinaTown\\chinatown\\.dart_tool\\flutter_build\\430d4215a06fffff10e3b3016b510747\\native_assets.yaml: 

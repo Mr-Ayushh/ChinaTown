@@ -1,15 +1,22 @@
+# Flutter/Dart specific
+.dart_tool/
+.packages
+build/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Runner.xcodeproj/project.xcworkspace/
+ios/Runner.xcworkspace/
+ios/Pods/
+pubspec.lock
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+
+# Generated files
+*.log
+*.tmp
+*.swp
+*.class
+*.jar
+*.apk
+*.ipa
