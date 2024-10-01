@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # chinatown
 
 A new Flutter project.
