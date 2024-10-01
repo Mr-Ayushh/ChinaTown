@@ -79,8 +79,7 @@ flutter run
 
 ## Roadmap
 
-- [ ] Integrate secure payment gateways (UPI, Credit/Debit cards).
-- [ ] Add multi-language support.
+- [ ] Integrate payment system is currently COD(Working or upi payments).
 - [ ] Enable live chat for customer support.
 - [ ] Add user profiles and preferences management.
 
