@@ -1,0 +1,197 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:dummy_1/screens/admin/add_item_page.dart';
+import 'package:dummy_1/utils/exports.dart';
+import 'package:flutter_slidable/flutter_slidable.dart';
+
+class NonVegItemListPage extends StatefulWidget {
+  const NonVegItemListPage({
+    super.key,
+  });
+
+  @override
+  State<NonVegItemListPage> createState() => _NonVegItemListPageState();
+}
+
+class _NonVegItemListPageState extends State<NonVegItemListPage> {
+  late Stream<QuerySnapshot> nonVegStream;
+
+  @override
+  void initState() {
+    nonVegStream = fetchNonVegData();
+    super.initState();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: <Widget>[
+          Container(
+            height: MediaQuery.of(context).size.height * 0.15,
+            decoration: const BoxDecoration(
+              color: Colors.red,
+              borderRadius: BorderRadius.only(
+                bottomLeft: Radius.circular(20),
+                bottomRight: Radius.circular(20),
+              ),
+            ),
+            child: const Center(
+              child: Text(
+                'Non-Veg Product List',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+          ),
+          10.heightBox,
+          OutlinedButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const AddItemPage(
+                    categoryName: 'NonVegetarian',
+                  ),
+                ),
+              );
+            },
+            style: OutlinedButton.styleFrom(
+              side: const BorderSide(color: Colors.red), // Outline color
+              padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 20),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(10),
+              ),
+            ),
+            child: const Text(
+              'Add Items',
+              style: TextStyle(
+                fontSize: 18,
+                fontWeight: FontWeight.bold,
+                color: Colors.red, // Button text color
+              ),
+            ),
+          ).pOnly(
+            left: 20,
+            right: 20,
+          ),
+          Expanded(
+            child: StreamBuilder<QuerySnapshot>(
+              stream: nonVegStream,
+              builder: (context, snapshot) {
+                if (snapshot.hasError) {
+                  return const Center(child: Text('Something went wrong'));
+                } else if (snapshot.hasData && snapshot.data!.docs.isNotEmpty) {
+                  return ListView.builder(
+                    itemCount: snapshot.data!.docs.length,
+                    itemBuilder: (context, index) {
+                      var item = snapshot.data!.docs[index].data()
+                          as Map<String, dynamic>;
+                      String name = item['name'];
+                      String description = item['description'];
+                      double price = item['price'] != null
+                          ? double.parse(item['price'].toString())
+                          : 0.0;
+                      String picturePath = item['picturePath'];
+                      String categoryName = item['category'];
+
+                      return Slidable(
+                          key: ValueKey(index),
+                          endActionPane: ActionPane(
+                            motion: const ScrollMotion(),
+                            children: [
+                              SlidableAction(
+                                onPressed: (context) {
+                                  deleteItem(
+                                    snapshot.data!.docs[index].id,
+                                    item['category'],
+                                  );
+                                },
+                                backgroundColor: const Color(0xFFFE4A49),
+                                foregroundColor: Colors.white,
+                                icon: Icons.delete,
+                                label: 'Delete',
+                              ),
+                            ],
+                          ),
+                          child: ListTile(
+                            title: Text(name),
+                            subtitle: Text(description),
+                            trailing: Text('₹$price'),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(
+                                10,
+                              ),
+                            ),
+                            tileColor: Colors.grey.shade200,
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => AddItemPage(
+                                    name: name,
+                                    description: description,
+                                    price: price.toString(),
+                                    picturePath: picturePath,
+                                    categoryName: 'NonVegetarian',
+                                  ),
+                                ),
+                              );
+                            },
+                          )).pOnly(
+                        left: 20,
+                        right: 20,
+                        bottom: 10,
+                      );
+                    },
+                  );
+                } else {
+                  return const Center(child: Text('No items found'));
+                }
+              },
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  void deleteItem(String documentId, String category) async {
+    final FirebaseFirestore firestore = FirebaseFirestore.instance;
+    final CollectionReference productCollection =
+        firestore.collection('AdminMaster').doc(category).collection(
+              category.toLowerCase() == 'beverages'
+                  ? 'coldDrinks'
+                  : category.toLowerCase() == 'featuredproducts'
+                      ? 'featured'
+                      : category.toLowerCase() == 'nonvegetarian'
+                          ? 'nonveg'
+                          : category.toLowerCase() == 'vegetarian'
+                              ? 'veg'
+                              : '',
+            );
+
+    try {
+      await productCollection.doc(documentId).delete();
+      setState(() {
+        nonVegStream = fetchNonVegData();
+      });
+      debugPrint('Product deleted successfully');
+    } catch (e) {
+      debugPrint('Error deleting product: $e');
+    }
+  }
+
+  Stream<QuerySnapshot> fetchNonVegData() {
+    final FirebaseFirestore firestore = FirebaseFirestore.instance;
+    final CollectionReference mainCollection =
+        firestore.collection('AdminMaster');
+    CollectionReference nonVegItemCollection =
+        mainCollection.doc('NonVegetarian').collection('nonveg');
+
+    return nonVegItemCollection.snapshots();
+  }
+}
